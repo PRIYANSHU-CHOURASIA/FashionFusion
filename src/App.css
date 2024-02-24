@@ -1,0 +1,233 @@
+/* primary color #b30753 */
+/* secondary color #ffffff */
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: none;
+  box-shadow: none;
+  outline: 0 none;
+}
+
+.cs-btn-primary{
+    background-color: #b30753;
+    color: white;
+}
+
+.cs-btn-primary:active{
+  color: #b30753!important;
+  background-color: white;
+  border: 1px solid #b30753;
+}
+
+.cs-btn-secondary{
+    color: #b30753;
+    background-color: white;
+}
+
+.cs-text-primary{
+  color: #b30753;
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td img {
+  vertical-align: middle;
+}
+
+table , th , td {
+  padding: 10px;
+  text-align: center;
+}
+
+thead{
+  background-color: rgb(57, 116, 104); 
+  color: white;
+}
+
+table{
+  background-color: rgb(41, 182, 145); 
+  
+}
+
+main.table {
+  width: 82vw;
+  height: 90vw;
+  backdrop-filter: blur(7px);
+  border-radius: 8px;
+}
+
+.table__header {
+ width: 100%;
+ height: 5%;
+ margin-left: 360px;
+ margin-top: 50px;
+ color:black;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.table__body {
+  width: 95%;
+  max-height: 89%;
+  border-radius: 0.6rem;
+  box-shadow: 0 8px 8px  rgba(0, 0, 0, 0.333);
+  overflow: auto; 
+  cursor: pointer;
+}
+
+.table__header1 {
+  width: 100%;
+ height: 5%;
+ margin-left: 300px;
+ margin-top: 50px;
+ margin-bottom: 20px;
+ color:black;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.admincategory {
+  margin: 70px auto;
+  width: 400px;
+  padding: 40px;
+  box-shadow: 0 0.9rem 0.9rem rgba(23, 8, 84, 0.333);
+  background-color: rgb(235, 244, 244);
+}
+
+.divmain {
+  margin:  auto;
+  width: 400px;
+  padding: 30px;
+  box-shadow: 0 0.9rem 0.9rem rgba(23, 8, 84, 0.333);
+  background-color: rgb(235, 244, 244);
+}
+
+.hello{
+  background-color: rgb(222, 235, 246);
+}
+
+.orders-list{
+  background-color:  rgb(222, 235, 246);
+}
+
+.orders-list >h5{
+  margin-left: 50px;
+}
+
+.profile-info {
+  margin-left: 20px;
+  background-color:rgb(218, 225, 231);
+}
+
+.profile-info > h5 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.name{
+  font-weight: bold;
+  color: rgb(78, 76, 76);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ol {
+  margin-bottom: 20px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+#x{
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.answer {
+  margin-top: 10px;
+}
+#it{
+  font-size: small;
+  font-weight: bold;
+}
+#in{
+  font-size: small;
+}
+#pp{
+  border-radius: 50%;
+  border: 2px solid rgb(158, 158, 158);
+  width: 40px;
+  height: 40px;
+  font-size: medium;
+
+}
+#button-addon2{
+  font-size: x-small;
+}
+.del{
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+
+
+
+
+
